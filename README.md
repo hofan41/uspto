@@ -38,7 +38,7 @@ Uspto.listPatents(options, function (err, data) {
 Retrieves a list of up to 50 patents/grants based on:
 - `options` - required:
   - `query` - [USPTO Query String](http://patft.uspto.gov/netahtml/PTO/search-adv.htm), required.
-  - `page` - used when it is necessary to retrieve beyond the first 50 patents, defaults to 1.
+  - `page` - number, used when retrieving beyond the first 50 search results, defaults to 1.
 - `callback` - the callback method using the signature `function(err, data)` where:
   - `err` - if retrieval failed, the error reason, otherwise `null`.
   - `data` - the retrieved patents as an array of objects containing:
