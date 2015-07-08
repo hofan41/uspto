@@ -1,4 +1,4 @@
-**uspto** is a library for retrieve USPTO patent information directly from their website
+**uspto** is a library for directly retrieving USPTO patent information
 
 Lead Maintainer: [Ho-Fan Kang](https://github.com/hofan41)
 
