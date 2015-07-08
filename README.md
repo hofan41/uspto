@@ -25,7 +25,7 @@ Uspto.listPatents(options, function (err, data) {
     data.forEach(function (element) {
 
       console.log('patent number: ' + element.id);
-      console.log('patent link: ' + element.link);
+      console.log('patent link: ' + element.url);
       console.log('patent title: ' + element.title);      
     });
   }
