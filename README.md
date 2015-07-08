@@ -6,7 +6,7 @@ Lead Maintainer: [Ho-Fan Kang](https://github.com/hofan41)
 
 - [Example](#example)
 - [Usage](#usage)
-    - [`listPatents(options, callback)`](#listpatentsoptions-callback)
+    - [`listPatents(options, callback)`](#listpatents-options-callback)
 
 <!-- tocstop -->
 
