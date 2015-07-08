@@ -1,0 +1,21 @@
+{
+  "name": "uspto",
+  "version": "1.0.0",
+  "description": "API for retrieving USPTO patent grants",
+  "repository": "git://github.com/hofan41/uspto",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "uspto",
+    "patent"
+  ],
+  "author": "Ho-Fan Kang <me@hofan41.com> (http://www.hofan41.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "0.19.x",
+    "joi": "6.x.x",
+    "wreck": "6.x.x"
+  }
+}
