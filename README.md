@@ -6,7 +6,7 @@ Lead Maintainer: [Ho-Fan Kang](https://github.com/hofan41)
 
 - [Example](#example)
 - [Usage](#usage)
-    - [`listPatents(options, callback)`](#listPatentsoptions-callback)
+    - [`listPatents(options, callback)`](#listpatentsoptions-callback)
 
 <!-- tocstop -->
 
@@ -16,8 +16,7 @@ Lead Maintainer: [Ho-Fan Kang](https://github.com/hofan41)
 var Uspto = require('uspto');
 
 var options = {
-  query: 'IN/KANG-HO-FAN',  // [USPTO Query String](http://patft.uspto.gov/netahtml/PTO/search-adv.htm)
-  page: 1
+  query: 'IN/KANG-HO-FAN'
 };
 
 Uspto.listPatents(options, function (err, data) {
