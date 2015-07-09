@@ -31,7 +31,9 @@ Uspto.listPatents(options, function (err, data) {
       console.log('patent pdf link: ' + element.pdf);
     });
   }
-});```
+});
+```
+
 # Usage
 
 ### `listPatents(options, callback)`
