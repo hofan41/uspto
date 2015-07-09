@@ -24,13 +24,14 @@ Uspto.listPatents(options, function (err, data) {
   if (!err) {
     data.forEach(function (element) {
 
+      console.log('\n\n');
       console.log('patent number: ' + element.id);
       console.log('patent link: ' + element.url);
-      console.log('patent title: ' + element.title);      
+      console.log('patent title: ' + element.title);
+      console.log('patent pdf link: ' + element.pdf);
     });
   }
-});
-```
+});```
 # Usage
 
 ### `listPatents(options, callback)`
@@ -45,3 +46,4 @@ Retrieves a list of up to 50 patents/grants based on:
     - `id` - the patent number.
     - `url` - a link to the patent on the USPTO website.
     - `title` - the patent title.
+    - `pdf` - a link to a full pdf download of the patent.
