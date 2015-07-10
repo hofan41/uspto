@@ -49,7 +49,7 @@ Retrieves a list of up to 50 patents/grants based on:
 Returns a [promise](https://github.com/petkaantonov/bluebird#what-are-promises-and-why-should-i-use-them) with the following data:
 - `data` - an object containing:
   - `patentList` - an array of up to 50 objects containing:
-    - `id` - the patent number.
+    - `id` - the patent id.
     - `url` - a link to the patent on the USPTO website.
     - `title` - the patent title.
     - `pdf` - a link to a full pdf download of the patent.
