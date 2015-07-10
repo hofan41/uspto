@@ -6,7 +6,7 @@ var options = {
 
 Uspto.listPatents(options).then(function (data) {
 
-  data.forEach(function (element) {
+  data.patentList.forEach(function (element) {
 
     console.log('patent number: ' + element.id);
     console.log('patent link: ' + element.url);
@@ -15,7 +15,7 @@ Uspto.listPatents(options).then(function (data) {
     console.log('');
   });
 
-  console.log(data.length + ' patents found.');
+  console.log('Displaying patents ' + data.startIndex + ' - ' + data.endIndex + ' out of ' + data.totalCount + ' patents found.');
 }).catch(function (err) {
 
   console.log(err);
